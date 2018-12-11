@@ -1,9 +1,9 @@
-var express = require('express');
+import express from 'express';
 
 var server = express();
 
 server.get('/', (req, res) => {
-  console.log('ok la i make it work');
+  console.log('ok la i mak');
   res.send('HOMEPAGE');
 });
 
